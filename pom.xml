@@ -156,11 +156,11 @@
         <artifactId>tomcat7-maven-plugin</artifactId> 
         <version>2.2</version> 
         <configuration> 
-        <server>tomcat-development-server</server> 
+        <server>144.38.201.118:8080</server> 
         <url>http://144.38.201.118:8080/manager/text</url> 
         <warFile>target\spring-petclinic-1.5.1.war</warFile> 
         <path>/petclinic</path> 
-	<username>jvandeberg</username>
+	    <username>jvandeberg</username>
         <password>21Jonathan</password>
         </configuration> 
         </plugin> 
