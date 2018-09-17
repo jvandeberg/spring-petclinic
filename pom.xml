@@ -52,7 +52,7 @@
     </dependency>
     <dependency>
     <groupId>org.apache.tomcat.embed</groupId>
-    <artifactId>tomcat7-embed-el</artifactId>
+    <artifactId>tomcat-embed-el</artifactId>
     <scope>provided</scope>
 </dependency>
     <dependency>
@@ -160,7 +160,7 @@
         <url>http://144.38.201.118:8080/manager/text</url> 
         <warFile>target\spring-petclinic-1.5.1.war</warFile> 
         <path>/petclinic</path> 
-	    <username>jvandeberg</username>
+	<username>jvandeberg</username>
         <password>21Jonathan</password>
         </configuration> 
         </plugin> 
@@ -203,11 +203,7 @@
           <failOnNoGitDirectory>false</failOnNoGitDirectory>
         </configuration>
       </plugin>
-      <plugin>
-         <groupId>org.apache.tomcat.maven</groupId>
-         <artifactId>tomcat7-maven-plugin</artifactId>
-         <version>2.0</version>
-      </plugin>    
+
       <plugin>
         <groupId>ro.isdc.wro4j</groupId>
         <artifactId>wro4j-maven-plugin</artifactId>
